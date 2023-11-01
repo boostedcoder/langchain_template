@@ -1,12 +1,12 @@
 {
-  "dataFormatVersion": "1.6.2",
+  "dataFormatVersion": "1.6.3",
   "summary": {
     "projectName": "langchain_template",
     "summaryUrl": ".boost/langchain_template.summary.boost-notebook",
-    "filesToAnalyze": 758,
+    "filesToAnalyze": 824,
     "filesAnalyzed": 0,
     "issues": [
-      "No issues found"
+      "No summary file found at .boost/langchain_template.summary.boost-notebook"
     ]
   },
   "sectionSummary": {
@@ -22,19 +22,19 @@
   },
   "files": {},
   "account": {
-    "refreshed": false,
-    "enabled": false,
-    "status": "",
+    "refreshed": true,
+    "enabled": true,
+    "status": "paid",
     "trialRemaining": 0,
-    "usageThisMonth": 0,
-    "discountedUsage": 0,
+    "usageThisMonth": 911.48,
+    "discountedUsage": 100,
     "lastOperationCost": 0,
     "batchOperationCost": 0,
-    "balanceDue": 0,
-    "couponType": "",
-    "org": "",
-    "owner": "",
-    "created": "",
+    "balanceDue": 811.48,
+    "couponType": "Polyverse Boost Free Trial",
+    "org": "polyverse-appsec",
+    "owner": "alex@polyverse.io",
+    "created": "2023-05-06",
     "creditCardLinked": false
   },
   "uiState": {

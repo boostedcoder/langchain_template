@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./boost/packages/rag-chroma"
+    ]
+}

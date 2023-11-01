@@ -12,6 +12,7 @@ tomli-w = "^1.0.0"
 uvicorn = "^0.23.2"
 fastapi = "^0.103.2"
 langserve = ">=0.0.16"
+beautifulsoup4 = "^4.12.2"
 
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.23.2"

@@ -8,7 +8,7 @@ from langchain.vectorstores import Chroma
 
 # Example for document loading (from url), splitting, and creating vectostore
 
-""" 
+
 # Load
 from langchain.document_loaders import WebBaseLoader
 loader = WebBaseLoader("https://lilianweng.github.io/posts/2023-06-23-agent/")
@@ -34,6 +34,7 @@ vectorstore = Chroma.from_texts(
     embedding=OpenAIEmbeddings(),
 )
 retriever = vectorstore.as_retriever()
+"""
 
 # RAG prompt
 template = """Answer the question based only on the following context:
