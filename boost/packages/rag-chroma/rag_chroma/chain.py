@@ -10,8 +10,10 @@ from langchain.vectorstores import Chroma
 
 
 # Load
-from langchain.document_loaders import WebBaseLoader
-loader = WebBaseLoader("https://lilianweng.github.io/posts/2023-06-23-agent/")
+from git import Repo
+from langchain.document_loaders import GitLoader
+#loader = WebBaseLoader("https://lilianweng.github.io/posts/2023-06-23-agent/")
+loader = GitLoader("/Users/alexgo/code/vs-boost")
 data = loader.load()
 
 # Split
